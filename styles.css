@@ -1,0 +1,106 @@
+
+ol{
+    font-style: oblique; font-size: large; 
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.card{
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+    background-color: black;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: #585858;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+
+.cuadradoBicho{
+    padding:5px;
+    margin:5px;
+    background-color: #226d00;
+    color: rgb(0, 0, 0);
+    }
+
+    .cuadradoVeneno{
+        padding:5px;
+        margin:5px;
+        background-color: #8700a1;
+        color: rgb(0, 0, 0);
+    }
+
+    .cuadradoPlanta{
+        padding:5px;
+        margin:5px;
+        background-color: #48ff00;
+        color: rgb(0, 0, 0);
+    }
+
+    .cuadradoAgua{
+        padding:5px;
+        margin:5px;
+        background-color: #005279;
+        color: rgb(0, 0, 0);
+    }
+
+    .cuadradoVolador{
+        padding:5px;
+        margin:5px;
+        background-color: #00ccff;
+        color: rgb(0, 0, 0);
+    }
+    
+    .cuadradoNormal{
+        padding:5px;
+        margin:5px;
+        background-color: #7c7c7cbd;
+        color: rgb(0, 0, 0);
+     }
+
+     .cuadradoFuego{
+        padding:5px;
+        margin:5px;
+        background-color: #ff6600;
+        color: rgb(0, 0, 0);
+    }
+
+    .cuadradoNA{
+        padding:5px;
+        margin:5px;
+        background-color: #000000;
+        color: rgb(0, 0, 0);
+    }
