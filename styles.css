@@ -16,6 +16,7 @@ ol{
     background-color: rgb(255, 255, 255);
     cursor: default;
     transition: all 400ms ease;
+    border-style: double;
 
 }
 
